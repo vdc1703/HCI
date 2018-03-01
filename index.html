@@ -27,24 +27,64 @@
     <!-- Body tag -->
     <body>
         <!-- Main Div -->
-        <div id='header-container'> 
-			<div class='logo'>
-				<a title="CS Help Desk" href="index.html" target="_blank">		
-				<img class='logo-img' src="img/wwwlogo1.gif"></a>
-			</div>
-			
-			<div class="navigation">
-				<nav class="navigation-bar">
-					<a href="#">Home</a>
-					<a href="#">Knowledge Base</a>
-					<a href="#">Online Chat</a>
-					<a href="#">Contact Us</a>
-				</nav>
-			</div>
+        <div id='header-container' class="text-center">
+            <div id="header-box">
+                <div class='logo'>
+                    <a title="CS Help Desk" href="index.html" target="_blank">
+                    <img class='logo-img' src="img/wwwlogo1.gif"></a>
+                </div>
+
+                <div class="navigation">
+                    <nav class="navigation-bar">
+                        <a href="#">Home</a>
+                        <a href="#">Knowledge Base</a>
+                        <a href="#">Online Chat</a>
+                        <a href="#">Contact Us</a>
+                    </nav>
+                </div>
+
+            </div>
         </div>
-		
-		
-		
+
+        <!--Search Div-->
+        <div id="search-div" class="text-center">
+            <h1>Computer Science Help Desk</h1>
+            <h3>Find your FAQ</h3>
+            <form>
+                <input type="text" class="search-bar" placeholder="Search..." required>
+                <input type="button" class="search-height" value="Search">
+            </form>
+        </div>
+
+        <!--Feature List-->
+		<div id="features-list">
+                <section class="row">
+                    <div class="column text-center">
+                        <div class="feature-icon">
+                            <img alt="" src="https://mk0herothemesdek9380.kinstacdn.com/wp-content/uploads/sites/2/2013/03/kb-large.png">
+                        </div>
+                        <h3>Knowledge Base</h3>
+                        <p>A fully fledged Knowledge Base to help users find solutions.</p>
+                    </div>
+                    <div class="column text-center">
+                        <div class="feature-icon">
+                            <img alt="" src="https://mk0herothemesdek9380.kinstacdn.com/wp-content/uploads/sites/2/2013/03/forum-large.png">
+                        </div>
+                        <h3>Community Forum</h3>
+                        <p>A community forum powered by BBPress, perfect for staff to customer interaction.</p>
+                    </div>
+                    <div class="column text-center">
+                        <div class="feature-icon">
+                            <img alt="" src="https://mk0herothemesdek9380.kinstacdn.com/wp-content/uploads/sites/2/2013/03/contact-large1.png">
+                        </div>
+                        <h3>Contact Us</h3>
+                        <p>Not found what you needed? Speak to us directly,
+                            <a href="http://themes.swishthemes.com/supportdesk/contact/">get in touch </a>
+                        </p>
+                    </div>
+                </section>
+        </div>
+
         <!--Display footer-->
         <div id="footer">   
                 <p>Under Development &copy; 2018 - Computer Science Department Virtual Help Desk</p>
