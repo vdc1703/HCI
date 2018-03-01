@@ -155,13 +155,38 @@ form {
 
 }
 
-.feature-icon img {
-    height: 100px;
-}
+
 
 
 
 /*Feature List End*/
+
+/*About Helpdesk*/
+
+#about-helpdesk {
+    background-color: bisque;
+    padding-top: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.feature-icon img {
+    height: 100px;
+}
+
+.news-list {
+    padding-left: 25%;
+}
+
+.news-list li {
+    margin: 5px 0;
+}
+
+.ul-style-none {
+    list-style-type: none;
+}
+/*End About Helpdesk*/
+
 
 /*footer tag in web*/
 #footer {
